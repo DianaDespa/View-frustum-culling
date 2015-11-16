@@ -1,0 +1,26 @@
+﻿Build started 09.01.2015 09:02:26.
+     1>Project "D:\Facultate\EGC\Tema4 - View Frustum Culling\Tema4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\facultate\egc\tema4 - view frustum culling\main.cpp(52): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\facultate\egc\tema4 - view frustum culling\main.cpp(57): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\facultate\egc\tema4 - view frustum culling\main.cpp(74): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\facultate\egc\tema4 - view frustum culling\main.cpp(75): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\facultate\egc\tema4 - view frustum culling\main.cpp(91): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\Tema4.exe" /NOLOGO /LIBPATH:dependente\freeglut /LIBPATH:dependente\glew opengl32.lib freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Tema4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Facultate\EGC\Tema4 - View Frustum Culling\Debug\Tema4.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\Tema4.lib" /MACHINE:X86 Debug\Quad.obj
+         Debug\Building.obj
+         Debug\City.obj
+         Debug\PlaneExtractUtil.obj
+         Debug\main.obj
+         Debug\Vehicle.obj
+         LINK : Debug\Tema4.exe not found or not built by the last incremental link; performing full link
+         Tema4.vcxproj -> D:\Facultate\EGC\Tema4 - View Frustum Culling\Debug\Tema4.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Debug\Tema4.exe;#1" /manifest Debug\Tema4.exe.intermediate.manifest
+     1>Done Building Project "D:\Facultate\EGC\Tema4 - View Frustum Culling\Tema4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.53
